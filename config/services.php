@@ -35,4 +35,41 @@ return [
         ],
     ],
 
+    'duffel' => [
+        'sandbox'   => [
+            'air-url'   => env('DUFFEL_SANDBOX_AIR_URL'),
+            'stay-url'   => env('DUFFEL_SANDBOX_AIR_URL'),
+            'key'   => env('DUFFEL_SANDBOX_KEY'),
+        ],
+        'live'  => [
+            'url'   => env('DUFFEL_LIVE_URL'),
+            'key'   => env('DUFFEL_LIVE_KEY')
+        ],  
+    ],
+
+    // 'anchor' => [
+    //     'sandbox'   => [
+    //         'url'   => env('GET_ANCHOR_SANBOX_URL'),
+    //         'key'   => env('GET_ANCHOR_SANDBOX_SECRET'),
+    //     ],
+    //     'live'  => [
+    //         'url'   => env('GET_ANCHOR_LIVE_URL'),
+    //         'key'   => env('GET_ANCHOR_LIVE_SECRET')
+    //     ],  
+    // ],
+
+    // 'dojah' => [
+    //     'sandbox'   => [
+    //         'url'   => env('DOJAH_SANDBOX_URL'),
+    //         'key'   => env('DOJAH_SANDBOX_SECRET'),
+    //         'app_id' => env('DOJAH_SANDBOX_APP_ID')
+    //     ], 
+    //     'live'  => [
+    //         'url'   => env('DOJAH_LIVE_URL'),
+    //         'key'   => env('DOJAH_LIVE_SECRET'),
+    //         'app_id' => env('DOJAH_LIVE_APP_ID')
+    //     ]
+    // ]
+
+
 ];
